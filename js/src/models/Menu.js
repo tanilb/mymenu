@@ -20,12 +20,12 @@ class Menu
     store(company)
     {
         this.menus.push({
-            id: $this->menus.length + 1,
+            id: this.menus.length + 1,
             company: company
         });
     }
 }
 
 module.exports = {
-    Menu: Menu,
+    Menu: Menu
 };
